@@ -1,6 +1,4 @@
-
 # MaxCounters
-
 # Calculate the values of counters after applying all alternating operations: 
 # increase counter by 1; set value of all counters to current maximum.
 
@@ -23,7 +21,6 @@ def solution(N, A):
         if counters[i] < start_line:
             counters[i] = start_line
     return counters
-
 print(solution(5,[3,4,4,6,1,4,4]))
 
 # expected output = [3, 2, 2, 4, 2]
